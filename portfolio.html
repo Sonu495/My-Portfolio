@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PERSONAL PORTFOLIO</title>
+  <link rel="stylesheet" href="portfolio.css">
+  <script src="https://kit.fontawesome.com/b545aa67bb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+      <nav>
+        <img src="logo.png" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header-text">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#portfolio">PROJECTS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+          <i class="fas fa-times cross" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+    </div>
+   </div>
+  <section class="home" id="home">
+   <div class="home-content">
+    <h3>Hello, It's Me</h3>
+    <h1>SONALI SINGH</h1>
+    <h3>And I'm a <span class="multiple-text"></span></h3>
+    <p>
+    B.Tech student | Python Enthusiast &#128013; | Web & App Developer &#128187;&#128241;
+    </p>
+    <p>
+    Crafting clean, creative, and user-friendly digital solutions &#10024;
+    </p>
+    <p> Know More About Me &#128640;</p>
+    <div class="social-media">
+      <a href="https://www.instagram.com/sonali.singh.17/"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/sonali-singh-73644a248/"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/Sonu495"><i class="fa-brands fa-github"></i></a>
+    </div>
+    <a href="c:\Users\Dell\Downloads\sonali.pdf" class="btn1">Download CV</a>
+   </div>
+
+   <div class="home-img">
+      <img src="sonali.jpg">
+   </div>
+  </section>
+    
+   <!-----------------ABOUT----------------->
+   <div id="about">
+    <div class="container">
+      <h1 class="sub-title">ABOUT ME</h1>
+      <div class="row">
+        <div class="about-col-1">
+          <img src="img.jpg">
+        </div>
+        <div class="about-col-2">
+          <p>Hey there! I'm Sonali Singh, a curious tech enthusiast and B.Tech student from SIRT Bhopal.
+            I'm passionate about Python, and I enjoy building user-friendly web and mobile applications.
+            Creating something from nothing with just code has always fascinated me.</p>
+          <br>
+          <p>I love learning new tools, exploring design, and turning ideas into digital experiences.
+            I believe in clean code, thoughtful design, and continuous growth.
+            Whether it's a website or an app, I aim to make it both useful and beautiful.
+          </p>
+          <br>
+          <h3> Let's build something great together!!&#128640;&#128640;</h3>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skill')">SKILLS</p>
+            <p class="tab-links" onclick="opentab('experience')">EXPERIENCE</p>
+            <p class="tab-links" onclick="opentab('education')">EDUCATION</p>
+          </div>
+          <div class="tab-contents active-tab" id="skill">
+            <ul>
+              <li><span>Languages:<br></span> Python, Dart, JavaScript, HTML, CSS</li>
+              <li><span>Developer Tools:<br></span> VS Code, Android Studio, Git, GitHub</li>
+              <li><span>Frameworks:<br></span>  Flutter, Bootstrap</li>
+              <li><span>Cloud/Databases:<br></span> MySQL, Google Cloud (Basics)</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>Jan,2023<br></span> Volunteer At India International Science Festival </li>
+              <li><span>Feb,2025<br></span>  Partcipant in the national level ideathon(ANVESHANA-2025)</li>
+              <li><span>May,2025<br></span> Virtual Internship with CODSOFT </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2022-2026<br></span> Bachelors of Techonology in Computer Science Engineering</li>
+              <li><span>2022<br></span> Completed Intermediate Schooling(XII) with 79.6%</li>
+              <li><span>2020<br></span> Completed Matriculation(X) with 88.20%</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+   <!-----------------------------SERVICES----------------------------->
+  <div id="skills">
+    <div class="container">
+      <h1 class="sub-title">MY SKILLS</h1>
+        <div class="skills-container">
+          <div class="center-label">Skills</div>
+          <div class="skills-rotator" id="rotator"></div>
+        </div>
+    </div>
+  </div>
+  <!------------portfolio----------->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title" style="font-size: 50px;">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="simon.jpg">
+           <div class="layer">
+            <h3>Simon Game</h3>
+            <p>The Simon Game is a memory-based game where players repeat an ever-growing sequence of colors and sounds. 
+              With each round, the pattern gets longer, challenging the player's memory and focus. It's a fun and 
+              interactive way to test concentration and recall skills.</p>
+            <a href="https://github.com/Sonu495/simon-game"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="spotify.png">
+           <div class="layer">
+            <h3>Spotify Clone</h3>
+            <p>The Spotify Clone is a music streaming web app that replicates core features of Spotify, including 
+              user authentication, music playback, playlists, and a responsive UI. Users can browse songs, play 
+              tracks, create playlists, and enjoy a seamless music experience.</p>
+            <a href="https://github.com/Sonu495/spotify-clone"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="shms.jpg">
+          <div class="layer">
+            <h3>Soil Health And Monitoring System</h3>
+            <p>The Soil Health and Monitoring System is a smart solution that uses sensors to monitor soil 
+              parameters like moisture, pH, temperature, and nutrients in real-time. It helps farmers make 
+              data-driven decisions, improve crop yield, and promote...</p>
+            <a href="https://ahakonnect.agastya.org/projects/2503/soil-health-and-monitoring-system-shms"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="sms.png">
+           <div class="layer">
+            <h3>Society Management System</h3>
+            <p>The Society Management System is a web-based platform designed to simplify and 
+              streamline the administrative tasks of residential housing societies or apartment complexes. 
+              It provides a centralized system...</p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="th.png">
+           <div class="layer">
+            <h3>Rewards-for-Completing Educational Task</h3>
+            <p>This project leverages blockchain technology to integrate NFT rewards into educational games. 
+              Users can participate in engaging treasure hunts, solve challenges, and claim rewards upon successful completion...</p>
+            <a href="https://github.com/Sonu495/Rewards-for-Completing-NFT-Treasure-Hunts-in-Educational-Games">
+            <i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#"class="btn">See More</a>
+    </div>
+  </div>
+<!---------------------------- CONTACT -------------------------->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>sonalisingh9055@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>9558504163</p>
+          <div class="social-icons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/sonali.singh.17/"><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/sonali-singh-73644a248/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Sonu495"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.threads.net/@sonali.singh.17/"><i class="fa-brands fa-square-threads"></i></a>
+          </div>
+          <a href="c:\Users\Dell\Downloads\sonali.pdf" download class="btn btn2">Get Resume</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Enter Your Name" required>
+            <input type="email" name="Email" placeholder="Enter Your email" required>
+            <textarea name="Message" rows="6" placeholder="Enter Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright @ Sonali Singh.Made with <i class="fa-solid fa-heart"> by Sonali</i></p>
+    </div>
+  </div>
+
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyJFAgEDVz5qnbMtnLc8P3C_GOC_KUoMWsSbeE4P0U9Eij-iWU4mNFdMqAzA9Pbx8Ll3g/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+  })
+  </script>
+   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+   <script src="portfolio.js"></script>
+</body>
+</html>
